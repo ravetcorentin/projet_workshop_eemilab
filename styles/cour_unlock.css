@@ -186,26 +186,24 @@ a {
 
 .header__connexion,
 .header__inscription {
+    display: block;
     text-align: center;
-    border: 1px solid #6B5CFF;
+    border: #6B63FF;
     height: 3rem;
-    line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
-    font-size: 0.8rem;
+    border:1px solid #6B5CFF;
+    font-size: 0.6rem;
     color: #6B63FF;
     font-family: 'Geometria';
     margin-left: 1rem;
-    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     transition-property: color;
     transition-duration: 0.3s;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .header__connexion:before,
@@ -217,7 +215,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #D2CEFF;
+    background: #FF849E;
     border-radius: 5px;
     transform: scaleY(0);
     transform-origin: 50% 100%;
@@ -237,6 +235,7 @@ a {
 }
 
 .header__inscription {
+    line-height: 3rem;
     background: #FF6484;
     margin-left: 1rem;
     border: none;
@@ -246,6 +245,7 @@ a {
 }
 
 .header__account{
+    margin-top:0.5rem;
     width: 15px;
 }
 

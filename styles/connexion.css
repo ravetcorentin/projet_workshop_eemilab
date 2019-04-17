@@ -190,7 +190,7 @@ a {
     background: #6B63FF;
     height: 3rem;
     line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
@@ -214,7 +214,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #FF849E;
+    background: #FF849E;;
     border-radius: 5px;
     transform: scaleY(0);
     transform-origin: 50% 100%;

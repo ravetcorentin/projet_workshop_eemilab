@@ -190,7 +190,7 @@ a {
     background: #6B63FF;
     height: 3rem;
     line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
@@ -214,7 +214,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #FF849E;
+    background: #FF849E;;
     border-radius: 5px;
     transform: scaleY(0);
     transform-origin: 50% 100%;
@@ -690,7 +690,7 @@ a {
     margin-top: 50px;
     background: #D2CEFF;
     width: 100%;
-    height: 360px;
+    height: 393px;
     display: flex;
     flex: 0 1 auto;
     flex-direction: row;
@@ -726,7 +726,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    height: 2rem;
     line-height: 2rem;
     padding: 10px;
 }

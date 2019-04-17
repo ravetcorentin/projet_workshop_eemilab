@@ -183,29 +183,26 @@ a {
         width: 10rem;
     }
 }
-
 .header__connexion,
 .header__inscription {
+    display: block;
     text-align: center;
-    border: 1px solid #6B5CFF;
+    border: #6B63FF;
     height: 3rem;
-    line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
-    font-size: 0.8rem;
+    border:1px solid #6B5CFF;
+    font-size: 0.6rem;
     color: #6B63FF;
     font-family: 'Geometria';
     margin-left: 1rem;
-    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     transition-property: color;
     transition-duration: 0.3s;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .header__connexion:before,
@@ -217,7 +214,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #D2CEFF;
+    background: #FF849E;
     border-radius: 5px;
     transform: scaleY(0);
     transform-origin: 50% 100%;
@@ -237,6 +234,7 @@ a {
 }
 
 .header__inscription {
+    line-height: 3rem;
     background: #FF6484;
     margin-left: 1rem;
     border: none;
@@ -246,6 +244,7 @@ a {
 }
 
 .header__account{
+    margin-top:0.5rem;
     width: 15px;
 }
 
@@ -330,7 +329,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: calc(160px - 10px);
+    width: calc(130px - 10px);
     border: 1px solid #6B63FF;
     margin-top: 40px;
     height: 70px;
@@ -394,7 +393,7 @@ a {
 .sectionmatiere2__title {
     text-align: end;
     font-family: 'Geometria';
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 auto;
 }
 

@@ -189,7 +189,7 @@ a {
     background: #6B63FF;
     height: 3rem;
     line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
@@ -318,7 +318,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: calc(160px - 10px);
+    width: calc(130px - 10px);
     border: 1px solid #6B63FF;
     margin-top: 40px;
     height: 70px;
@@ -343,7 +343,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #FF6484;
+    background: #FF849E;;
     border-radius: 10px;
     transform: scaleY(0);
     transform-origin: 50% 100%;
@@ -382,7 +382,7 @@ a {
 .sectionmatiere2__title {
     text-align: end;
     font-family: 'Geometria';
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0 auto;
 }
 

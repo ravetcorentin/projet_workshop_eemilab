@@ -189,7 +189,7 @@ a {
     background: #6B63FF;
     height: 3rem;
     line-height: 3rem;
-    width: 8.5rem;
+    width: 7rem;
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
@@ -659,7 +659,7 @@ a {
 }
 
 .popin {
-    height: 900px;
+    height: 670px;
     background: #fff;
     border-radius: 3px;
     padding: 20px;
@@ -705,7 +705,7 @@ a {
 }
 
 .popin__item {
-    height: 800px;
+    height: 560px;
     width: calc(33% - 10px);
     border: 1px solid #6B63FF;
     border-radius: 10px;
@@ -732,7 +732,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    padding-top: 40px;
 }
 
 .popin__buttons{
@@ -755,7 +754,6 @@ a {
     font-family: 'Geometria';
     border-radius: 5px;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .popin__register{
