@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+        url('WebFont.woff') format('woff'),
+        url('WebFont.ttf') format('truetype'),
+        url('WebFont.svg#webfont') format('svg');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +67,7 @@ a {
     text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #6B5CFF;
     margin-top: 1rem;
 }
@@ -79,7 +88,7 @@ a {
         display: block;
         font-size: 1.2rem;
         color: #575A88;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
     }
 }
 
@@ -128,7 +137,7 @@ a {
         display: block;
         font-size: 1.4rem;
         color: #29283A;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
         text-transform: uppercase;
         margin-right: 10px;
     }
@@ -193,7 +202,7 @@ a {
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     margin-left: 1rem;
     display: inline-block;
     vertical-align: middle;
@@ -261,7 +270,7 @@ a {
     line-height: 4rem;
     color: #29283A;
     font-size: 1.6rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .section1__search {
@@ -299,7 +308,7 @@ a {
 .sectioncours2__class {
     font-size: 4rem;
     color: #FF6484;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
@@ -385,7 +394,7 @@ a {
 
 .sectioncours2__title {
     text-align: end;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     font-size: 1.2rem;
     margin: 0 auto;
 }
@@ -417,7 +426,7 @@ a {
 
 .footer__title {
     font-size: 1.6rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -456,7 +465,7 @@ a {
     font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     padding-left: 10px;
 }
 
@@ -464,7 +473,7 @@ a {
     font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     padding-left: 35px;
 }
 
@@ -481,7 +490,7 @@ a {
     margin-top: 0.5rem;
     font-size: 1rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .footer__partnership--img {
@@ -499,7 +508,7 @@ a {
         margin-top: 1rem;
         font-size: 1rem;
         color: #fff;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
     }
 
     .footer__partnership--img {
@@ -541,7 +550,7 @@ a {
         display: block;
         color: #fff;
         font-size: 1.2rem;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
         margin-top: 0.5rem;
         margin-left: 0.5rem;
     }
@@ -560,7 +569,7 @@ a {
 .footer__newsTitle {
     font-size: 1.6rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .footer__newsContainer {
@@ -605,7 +614,7 @@ a {
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     border-radius: 5px;
 }
 
@@ -693,7 +702,7 @@ a {
 .popin__title {
     font-size: 1.5rem;
     color: #FF6484;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     text-align: center;
     padding: 1.5rem;
 }
@@ -721,7 +730,7 @@ a {
 .popin__item--title {
     font-size: 2rem;
     color: #707070;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     text-align: center;
     padding-top: 1rem;
 }
@@ -757,7 +766,7 @@ a {
     color: #6B63FF;
     font-size: 0.8rem;
     text-align: center;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     border-radius: 5px;
     margin: 0 auto;
 }
@@ -770,7 +779,7 @@ a {
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     border-radius: 5px;
     margin: 0 auto;
     margin-top: 20px;
@@ -797,7 +806,7 @@ a {
 
 .popin__text {
     font-size: 0.8rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #707070;
     width: 350px;
     margin-top: 0.5rem;
@@ -821,7 +830,7 @@ a {
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     border-radius: 5px;
     margin: 0 auto;
     margin-top: 50px;

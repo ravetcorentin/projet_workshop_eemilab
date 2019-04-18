@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('WebFont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+        url('WebFont.woff') format('woff'),
+        url('WebFont.ttf') format('truetype'),
+        url('WebFont.svg#webfont') format('svg');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +69,7 @@ a {
     text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #6B5CFF;
     margin-top: 1rem;
 }
@@ -81,7 +90,7 @@ a {
         display: block;
         font-size: 1.2rem;
         color: #575A88;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
     }
 }
 
@@ -129,7 +138,7 @@ a {
     .header__cours--title {
         font-size: 1.4rem;
         color: #29283A;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
         text-transform: uppercase;
         margin-right: 10px;
     }
@@ -153,7 +162,7 @@ a {
         width: 300px;
         margin-left: 30px;
         font-size: 1.4rem;
-        box-shadow: 0px 6px 10px -8px rgba(41,41,41,1);
+        box-shadow: 0px 6px 10px -8px rgba(41, 41, 41, 1);
         padding-left: 10px;
         box-sizing: border-box;
     }
@@ -194,7 +203,7 @@ a {
     border-radius: 5px;
     font-size: 1rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     margin-left: 1rem;
     display: inline-block;
     vertical-align: middle;
@@ -214,7 +223,8 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #FF849E;;
+    background: #FF849E;
+    ;
     border-radius: 5px;
     transform: scaleY(0);
     transform-origin: 50% 100%;
@@ -262,7 +272,7 @@ a {
     line-height: 4rem;
     color: #29283A;
     font-size: 1.6rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .section1__search {
@@ -290,7 +300,7 @@ a {
     .section2__background {
         display: block;
         position: absolute;
-        top: 180px;
+        top: 18%;
         right: 0;
         height: 750px;
     }
@@ -303,7 +313,7 @@ a {
     text-transform: uppercase;
     height: 22rem;
     border-radius: 5px;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #ffffff;
     opacity: 0.5;
     padding-top: 2rem;
@@ -359,7 +369,7 @@ a {
     width: 25rem;
     color: #fff;
     opacity: 0.7;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 @media screen and (min-width:768px) {
@@ -383,11 +393,11 @@ a {
     font-size: 1rem;
 }
 
-.section3__text--third{
+.section3__text--third {
     margin-top: -25px;
 }
 
-.section3__span{
+.section3__span {
     color: #6B5CFF;
 }
 
@@ -446,21 +456,21 @@ a {
         display: block;
         position: absolute;
         left: 0;
-        top: 95%;
+        top: 1000px;
     }
 
     .section4__background--bottom {
         display: block;
         position: absolute;
         left: 0;
-        top: 135%;
+        top: 1450px;
     }
 }
 
 .section4__known {
     font-size: 2rem;
     color: #29283A;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     margin-top: -40px;
     margin-bottom: -20px;
 }
@@ -473,8 +483,8 @@ a {
     }
 }
 
-@media screen and (min-width:768px){
-    .section4__content{
+@media screen and (min-width:768px) {
+    .section4__content {
         padding: 16px;
     }
 }
@@ -482,19 +492,19 @@ a {
 .section4__new {
     font-size: 2rem;
     color: #29283A;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     margin-top: -10px;
     margin-bottom: -20px;
 }
 
 .section4__title {
     font-size: 1.6rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .section4__subtitle {
     font-size: 1.5rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 @media screen and (min-width:768px) {
@@ -505,7 +515,7 @@ a {
 
 .section4__teacher {
     font-size: 0.8rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -548,7 +558,7 @@ a {
 
 @media screen and (min-width:768px) {
     .section4__imgHours {
-        margin-top:30px;
+        margin-top: 30px;
         width: 60px;
     }
 }
@@ -573,7 +583,7 @@ a {
         background: #6B5CFF;
         text-align: center;
         color: #fff;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
         font-size: 1.2rem;
         border-radius: 5px;
         font-weight: none;
@@ -630,7 +640,7 @@ a {
 .section5__title {
     color: #fff;
     font-size: 1.4rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     padding-top: 10px;
 }
 
@@ -706,7 +716,7 @@ a {
 
 .footer__title {
     font-size: 1.6rem;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -744,7 +754,7 @@ a {
     font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     padding-left: 10px;
 }
 
@@ -752,7 +762,7 @@ a {
     font-size: 1.2rem;
     color: #fff;
     font-weight: bold;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     padding-left: 35px;
 }
 
@@ -769,7 +779,7 @@ a {
     margin-top: 0.5rem;
     font-size: 1rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .footer__partnership--img {
@@ -787,7 +797,7 @@ a {
         margin-top: 1rem;
         font-size: 1rem;
         color: #fff;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
     }
 
     .footer__partnership--img {
@@ -829,7 +839,7 @@ a {
         display: block;
         color: #fff;
         font-size: 1.2rem;
-        font-family: 'Geometria';
+        font-family: 'WebFont', Arial, sans-serif;;
         margin-top: 0.5rem;
         margin-left: 0.5rem;
     }
@@ -848,7 +858,7 @@ a {
 .footer__newsTitle {
     font-size: 1.6rem;
     color: #fff;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
 }
 
 .footer__newsContainer {
@@ -893,7 +903,7 @@ a {
     color: #fff;
     font-size: 1rem;
     text-align: center;
-    font-family: 'Geometria';
+    font-family: 'WebFont', Arial, sans-serif;;
     border-radius: 5px;
 }
 
