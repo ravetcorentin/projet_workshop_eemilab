@@ -747,6 +747,12 @@ a {
     padding-top: 40px;
 }
 
+@media screen and (min-width:768px){
+    .popin__forfait{
+        margin-top: 5px;
+    }
+}
+
 .popin__buttons{
     display: flex;
     flex: 0 1 auto;
