@@ -14,7 +14,7 @@
 
 body {
     font-size: 62.5%;
-    background: #fafafa;
+    background: #fafafa url(../assets/images/backgrounds.svg) center no-repeat;
 }
 
 a {
@@ -41,6 +41,18 @@ a {
 .footer__newsContainer,
 .footer__newsTitle {
     padding: 0.5rem;
+}
+
+
+.header__logo{
+    height: 3rem;
+}
+
+@media screen and (min-width:768px){
+    .header__logo{
+        height: 4rem;
+        padding-left: 30px;
+    }
 }
 
 .header__container {
@@ -261,6 +273,8 @@ a {
     transition-duration: 0.3s;
     transition-property: transform;
     transform: translateZ(0);
+    box-shadow: 10px 8px 10px -11px rgba(0, 0, 0, 0.44);
+    background: #fafafa;
 }
 
 .section1__link:hover {
@@ -269,9 +283,13 @@ a {
 
 .section1__items {
     line-height: 4rem;
-    color: #29283A;
+    color: #575A88;
     font-size: 1.6rem;
     font-family: 'WebFont', Arial, sans-serif;;
+}
+
+.section1__searchContainer{
+    padding-top: 10px;
 }
 
 .section1__search {
@@ -295,6 +313,17 @@ a {
     padding: 0;
 }
 
+.sectionconnexion1__all{
+    box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.75);
+    width: 90%;
+    margin: 0 auto;
+}
+@media screen and (min-width:768px){
+    .sectionconnexion1__all{
+        width: 50%;
+    }
+}
+
 @media screen and (min-width:768px){
     .sectionconnexion1{
         padding: 100px;
@@ -311,13 +340,43 @@ a {
     margin: 0 auto;
 }
 
+.sectionconnexion1__container--title{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .sectionconnexion1__title{
-    padding-bottom: 80px;
-    font-size: 2rem;
-    color: #FF6484;
+    font-size: 1.5rem;
+    padding: 5px 0;
+    color: #29283A;
     font-family: 'WebFont', Arial, sans-serif;;
-    display:flex;
-    justify-content: center;
+    display:block;
+    text-align: center;
+    width: 50%;
+}
+
+.background{
+    background: #6B5CFF;
+    color: #ffffff!important;
+}
+
+.hidden{
+    display: none;
+}
+
+.sectionconnexion1__title--inscription{
+    font-size: 1.5rem;
+    padding: 5px 0;
+    color: #29283A;
+    font-family: 'WebFont', Arial, sans-serif;;
+    display:block;
+    text-align: center;
+    width: 50%;
 }
 
 .sectionconnexion1__items{
@@ -332,12 +391,6 @@ a {
     margin-top: 50px;
 }
 
-@media screen and (min-width:768px){
-    .sectionconnexion1__items{
-        width: 51%;
-    }
-}
-
 .sectionconnexion1__button{
     display: block;
     height: 50px;
@@ -348,10 +401,11 @@ a {
     font-size: 1rem;
     font-family: 'WebFont', Arial, sans-serif;;
     cursor: pointer;
-    background: #FF6484;
+    background: #6B5CFF;
     border-radius: 10px;
     margin-top: 80px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
